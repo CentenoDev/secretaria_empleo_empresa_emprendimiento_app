@@ -1,0 +1,43 @@
+name: secretaria_empleo_empresa_emprendimiento_app
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'  # Remove this line if you wish to publish to pub.dev
+
+# Version and build number for your application
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+# Dependencies specify other packages that your package needs in order to work.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # iOS style icons
+  cupertino_icons: ^1.0.8
+
+  # Additional packages
+  flutter_speed_dial: ^7.0.0
+  table_calendar: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended lints for good coding practices
+  flutter_lints: ^4.0.0
+
+# Flutter package specific settings
+flutter:
+  # Ensure Material Icons font is included
+  uses-material-design: true
+
+  # Assets included in the application
+  assets:
+    - assets/images/splash_imagen.png
+    - assets/images/splash_image.png
+    - assets/images/app_icon.png
+    - assets/images/logo.png
+    - assets/images/fondo_drawer.png
